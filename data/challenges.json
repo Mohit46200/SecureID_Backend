@@ -1,0 +1,57 @@
+[
+  {
+    "challengeId": "f22fe429-f86c-4a45-9a71-3aaeb9f3e22e",
+    "userId": "545acfda-f3cf-4267-94d0-65ae085fb8a0",
+    "channel": "email",
+    "destination": "mohit22600@gmail.com",
+    "purpose": "registration-email",
+    "otpHash": "88053559a520e90ccd885db2030d9f85ecd0ed06305af86d3342d0c44c401c27",
+    "expiresAt": "2026-08-24T14:00:07.339Z",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "used": true,
+    "createdAt": "2026-08-24T13:57:07.339Z",
+    "verifiedAt": "2026-08-24T13:57:19.836Z"
+  },
+  {
+    "challengeId": "59cd5795-df63-4c2d-ac4f-483488bd8327",
+    "userId": "545acfda-f3cf-4267-94d0-65ae085fb8a0",
+    "channel": "sms",
+    "destination": "+918279886844",
+    "purpose": "registration-sms",
+    "otpHash": "18094dc5b8185cd6b6eb74b86cbd87530e9478a05c7c79fd7f70323296e91c2b",
+    "expiresAt": "2026-08-24T14:00:19.839Z",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "used": true,
+    "createdAt": "2026-08-24T13:57:19.839Z",
+    "verifiedAt": "2026-08-24T13:57:28.612Z"
+  },
+  {
+    "challengeId": "08a98964-252f-4088-8997-1a41d1a2a17e",
+    "userId": "545acfda-f3cf-4267-94d0-65ae085fb8a0",
+    "channel": "email",
+    "destination": "mohit22600@gmail.com",
+    "purpose": "login",
+    "otpHash": "9be70681af5978ee57475a6d1591eeeb2d438f7a2f0667980f4d8cfdc74fe9aa",
+    "expiresAt": "2026-08-24T14:00:39.380Z",
+    "attempts": 0,
+    "maxAttempts": 3,
+    "used": false,
+    "createdAt": "2026-08-24T13:57:39.380Z"
+  },
+  {
+    "challengeId": "b0c36eec-9121-4966-a816-7ad1b13b4621",
+    "userId": "545acfda-f3cf-4267-94d0-65ae085fb8a0",
+    "channel": "email",
+    "destination": "mohit22600@gmail.com",
+    "purpose": "login",
+    "otpHash": "3a122a7af050575998d05c142280463982d18e0c1e1f1abc902f1e72b9359917",
+    "expiresAt": "2026-08-24T14:00:41.261Z",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "used": true,
+    "createdAt": "2026-08-24T13:57:41.261Z",
+    "verifiedAt": "2026-08-24T13:57:49.076Z"
+  }
+]

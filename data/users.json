@@ -1,0 +1,14 @@
+[
+  {
+    "id": "545acfda-f3cf-4267-94d0-65ae085fb8a0",
+    "fullName": "MKV",
+    "email": "mohit22600@gmail.com",
+    "phone": "+918279886844",
+    "passwordHash": "$2a$12$IDT3WwU.kZrYjZkE5HOvjurs8pF0uTmwGbD4JkVFaZ/vimfu.rke2",
+    "emailVerified": true,
+    "mobileVerified": true,
+    "failedLoginAttempts": 0,
+    "lockedUntil": null,
+    "createdAt": "2026-08-24T13:57:07.337Z"
+  }
+]
