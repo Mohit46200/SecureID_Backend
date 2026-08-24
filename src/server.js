@@ -9,8 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = (
   process.env.FRONTEND_ORIGIN ||
-  'http://localhost:5173',
-  "https://secure-id-ebon.vercel.app"
+  'https://secure-id-ebon.vercel.app'
 )
   .split(',')
   .map((origin) => origin.trim())
@@ -23,14 +22,15 @@ app.use(
         return callback(null, true);
       }
 
-      return callback(new Error('Origin not allowed by CORS.'));
+      return callback(
+        new Error('Origin not allowed by CORS.'),
+      );
     },
     credentials: true,
   }),
 );
 
 app.use(express.json());
-
 app.use(
   session({
     secret:
