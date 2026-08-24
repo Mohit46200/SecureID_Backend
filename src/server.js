@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = (
   process.env.FRONTEND_ORIGIN ||
-  'http://localhost:5173'
+  'http://localhost:5173',
+  "https://secure-id-ebon.vercel.app"
 )
   .split(',')
   .map((origin) => origin.trim())
